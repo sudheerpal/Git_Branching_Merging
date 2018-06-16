@@ -3,9 +3,10 @@ This will show how we can create multiple branches and then merge to develop bra
 
 # Summary --
 Assumption - we have two branches by default master and develop. Here develop is exact copy for master. 
-In whole process we are never going to touch master branch
-1- Login to bitbucket and go to your repo.
-2- Create your own branch (for e.g **featureBranch**) from develop branch. This we need to do in bitbucket cloud platform.
+In whole process we are never going to touch master branch.
+
+...1- Login to bitbucket and go to your repo.
+...2- Create your own branch (for e.g **featureBranch**) from develop branch. This we need to do in bitbucket cloud platform.
 3- Now in our local we need to take a pull from develop branch. If you are not on developer branch then we can checkout any time to develop branch by-  **git checkout develop**.
 4- After pull is done, then we need to switch to our newly created branch by- **git checkout featureBranch**.
 5- Make your changes and then commit them. Use command like **git add .**  and **git commit -m 'commitMessage'**
